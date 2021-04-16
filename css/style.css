@@ -344,6 +344,7 @@ body{
   opacity: 0;
   visibility: hidden;
   text-align: left;
+  display:inline-block;
   -webkit-transition: all .5s ease-in-out;
      -moz-transition: all .5s ease-in-out;
       -ms-transition: all .5s ease-in-out;
@@ -665,12 +666,12 @@ td{
 
  ***/
 
- .single-img{
+ /*.single-img{
   max-width: 225px;
- }
+ }*/
 
  .social-link li a {
-  width: 45px;
+  /*width: 45px;*/
   line-height: 45px;
   font-size: 18px;
   margin: 0 7px;
@@ -680,52 +681,39 @@ td{
   color: #ffffff;
   border-color:#677fb5;
 }
- #oradores .project-menu ul, #embaixadores .project-menu ul {
-  text-align: center;
-  margin-top: 34px;
-  margin-bottom: 60px;
-}
-#oradores .project-menu ul li, #embaixadores .project-menu ul li {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-  color:#292929;
-  padding: 0 8px;
-  border-width: 0;
-  border-bottom-width:1px;
-  border-color: transparent;
-  margin: 15px 10px 0 10px;
-  padding-bottom: 10px;
-} 
-#oradores .project-gallery .grid-item, #embaixadores .project-gallery .grid-item {
+#oradores .project-gallery .grid-item  {
   margin-top: 3%;
-  width: 25%;
-  padding: 0 15px;
+  /*width: 25%;
+  padding: 0 15px;*/
   margin-bottom: 32px;
   float:left;
   display: none;
 }
-#oradores .project-gallery .single-img, #embaixadores .project-gallery .single-img {
+
+#oradores .project-gallery .single-img{
   position: relative;
   overflow: hidden;
 }
-#oradores .project-gallery .single-img .opacity, #embaixadores .project-gallery .single-img .opacity {
+#oradores .project-gallery .single-img .opacity {
   position: absolute;
   top:0;
   left:0;
   right: 0;
   bottom: 0;
   background: rgba(27,117,188,0.9);
+  padding: 55px 0 20px 0;
   opacity: 0;
-  -webkit-transform: scale(0.2);
-     -moz-transform: scale(0.2);
-      -ms-transform: scale(0.2);
-       -o-transform: scale(0.2);
-          transform: scale(0.2);
+  -webkit-transform: scale(1,0);
+     -moz-transform: scale(1,0);
+      -ms-transform: scale(1,0);
+       -o-transform: scale(1,0);
+          transform: scale(1,0);
+  -ms-transform-origin: 0% 0%; /* IE 9 */
+  -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 0%;
+
 }
-#oradores .project-gallery .single-img .opacity .border-shape, #embaixadores .project-gallery .single-img .opacity
-.border-shape {
+#oradores .project-gallery .single-img .opacity .border-shape{
   position: absolute;
   top:20px;
   left:20px;
@@ -734,33 +722,31 @@ td{
   border: 1px solid #fff;
   text-align: center;
 }
-#oradores .project-gallery .single-img .opacity h6 a, #embaixadores .project-gallery .single-img .opacity h6 a {
+#oradores .project-gallery .single-img .opacity h6 a{
   color:#fff;
 }
-#oradores .project-gallery .single-img .opacity ul li, #embaixadores .project-gallery .single-img .opacity ul li {
+#oradores .project-gallery .single-img .opacity ul li{
   display: inline-block;
   color: #fff;
   margin-top: 8px;
 }
-#oradores .project-gallery .single-img .opacity .border-shape>div, #embaixadores .project-gallery .single-img .opacity
-.border-shape>div {
+#oradores .project-gallery .single-img .opacity .border-shape>div{
   display: table;
   width: 100%;
   height: 100%;
 }
-#oradores .project-gallery .single-img .opacity .border-shape>div>div, #embaixadores .project-gallery .single-img .opacity
-.border-shape>div>div {
+#oradores .project-gallery .single-img .opacity .border-shape>div>div{
   display: table-cell;
   vertical-align: middle;
 }
-#oradores .project-gallery .single-img .opacity h6 a, #embaixadores .project-gallery .single-img .opacity h6 a {
+#oradores .project-gallery .single-img .opacity h6 a{
   -webkit-transform: translate3D(0,-100px,0);
      -moz-transform: translate3D(0,-100px,0);
       -ms-transform: translate3D(0,-100px,0);
        -o-transform: translate3D(0,-100px,0);
           transform: translate3D(0,-100px,0);
 }
-#oradores .project-gallery .single-img .opacity ul, #embaixadores .project-gallery .single-img .opacity ul {
+#oradores .project-gallery .single-img .opacity ul{
   -webkit-transform: translate3D(0,100px,0) ;
      -moz-transform: translate3D(0,100px,0);
       -ms-transform: translate3D(0,100px,0);
@@ -775,7 +761,7 @@ td{
   -webkit-transition-delay: 0.3s; /* Safari */
   transition-delay: 0.3s;
 }
-#oradores .project-gallery .single-img:hover .opacity, #embaixadores .project-gallery .single-img:hover .opacity {
+#oradores .project-gallery .single-img:hover .opacity{
   opacity: 1;
   -webkit-transform: scale(1);
      -moz-transform: scale(1);
@@ -906,11 +892,11 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   margin: 22px 0 15px 0;
 }
 #contactos .team-member-wrapper .single-team-member .img .opacity p {
-  color: #ffffff;
+  color: #ffffff; /*number*/
   padding: 0 40px;
 }
 #contactos .team-member-wrapper .single-team-member .img .opacity p a {
-  color: #ffffff;
+  color: #ffffff; /*mail*/
 }
 #contactos .team-member-wrapper .single-team-member .img .opacity h4,
 #contactos .team-member-wrapper .single-team-member .img .opacity span,
@@ -1075,6 +1061,12 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
 ====================================================================
 
  ***/
+
+
+ .single-price-table{
+  /*width: 300px;*/
+  height: 400px;
+ }
 #inscicoes {
   padding: 100px 0 100px 0;
   background: #f3f3f3;
