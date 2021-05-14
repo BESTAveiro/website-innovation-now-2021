@@ -475,11 +475,15 @@ body{
 }
 
 .content-table thead tr {
-  background-color: #27AAE1;
-  color: #ffffff;
+  background-color: #000000;
+  color: #27AAE1;
   text-align: left;
   font-weight: bold;
   font-family: sans-serif;
+}
+.content-table tbody td.back{
+  background-color:#000000 ;
+  
 }
 
 .content-table th,
@@ -499,7 +503,7 @@ body{
   border-bottom: 2px solid #27AAE1;
 }
 
-.content-table tbody tr.active-row {
+.content-table tbody td.active-row {
   font-weight: bold;
   color: #27AAE1;
   font-family: sans-serif;
@@ -899,6 +903,10 @@ td{
 ====================================================================
 
  ***/
+.alinhar{
+  margin-top : -70px;
+}
+
  .bestdescription{
   color: #000;
   text-align: justify;
@@ -1124,7 +1132,9 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
 ====================================================================
 
  ***/
-
+.alinhar2{
+  margin-top: -40px;
+}
 
  .single-price-table{
   /*width: 300px;*/
