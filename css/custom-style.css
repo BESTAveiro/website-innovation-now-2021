@@ -76,7 +76,7 @@
 }
 
 .d-none {
-    display: none;
+    display: block;
 }
 
 @media (min-width: 768px) {
@@ -84,7 +84,7 @@
         display: block;
     }
     .d-md-none {
-        display: none;
+        display: block;
     }
 }
 
