@@ -476,7 +476,7 @@ body{
 
 .content-table thead tr {
   background-color: #000000;
-  color: #27AAE1;
+  color: #bbecff;
   text-align: left;
   font-weight: bold;
   font-family: sans-serif;
@@ -485,16 +485,16 @@ body{
   background-color:#000000 ; 
 }
 .content-table tbody td.break{
-  color:#797979
+  color:#293053
 }
 .content-table tbody td.round-table{
-  color:#0410b4
+  color:#2168d1
 }
 .content-table tbody td.palestra{
-  color:#323cd3
+  color:#0077ff
 }
 .content-table tbody td.check-in{
-  color:#4688be
+  color:#5095aa
 }
 
 .content-table th,
@@ -512,12 +512,12 @@ body{
 }
 
 .content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #27AAE1;
+  border-bottom: 2px solid #000000;
 }
 
 .content-table tbody td.active-row {
   font-weight: bold;
-  color: #27AAE1;
+  color: #bbecff;
   font-family: sans-serif;
 }
 
