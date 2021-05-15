@@ -304,6 +304,11 @@ body{
  ***/
 
 
+
+.alighthead{
+  text-align: left;
+}
+
 .theme-main-header {
   position: absolute;
   top:0;
@@ -463,12 +468,13 @@ body{
  
 
 .content-table {
-  width: 100%;
+  margin-left: auto;
+  margin-right:auto ;
   font-family: sans-serif;
   border-collapse: collapse;
   margin-top: 0%;
   border: 200px;
-  font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) );
+  font-size: calc( 6px + (24 - 16) * (100vw - 50px) / (800 - 400) );
   border-radius: 20px 20px 0 0;
   overflow: hidden; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -476,7 +482,7 @@ body{
 
 .content-table thead tr {
   background-color: #000000;
-  color: #bbecff;
+  color: #46C8F5;
   text-align: left;
   font-weight: bold;
   font-family: sans-serif;
@@ -485,21 +491,34 @@ body{
   background-color:#000000 ; 
 }
 .content-table tbody td.break{
-  color:#293053
+  color:#000000;
+  background-color:#1fb4e68c;
+  
 }
 .content-table tbody td.round-table{
-  color:#2168d1
+  /*color:#000000;*/
+  background-color:#021479e7 ;
 }
 .content-table tbody td.palestra{
-  color:#0077ff
+  color:#000000;
+  background-color:#0552aad2 ;
 }
 .content-table tbody td.check-in{
-  color:#5095aa
+  color:#000000;
+  background-color:#0ee4ecd0;
+}
+.content-table tbody td.momento{
+  color:#000000;
+  background-color:#4e53c0 ;
+}
+.content-table tbody td.pitches{
+  color:#000000;
+  background-color:#043c4d ;
 }
 
 .content-table th,
 .content-table td {
-  padding: 15px 2px 15px 2px;
+  padding: 10px 2px 10px 2px;
   text-align: center;
 }
 
@@ -517,7 +536,7 @@ body{
 
 .content-table tbody td.active-row {
   font-weight: bold;
-  color: #bbecff;
+  color: #46C8F5;
   font-family: sans-serif;
 }
 
@@ -925,14 +944,12 @@ td{
 
 .centrar{
 text-align:center;
-
 }
 
 
 
-
 .alinhar{
-  margin-top : -70px;
+  margin-top:auto;
 }
 
  .bestdescription{
