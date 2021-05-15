@@ -896,13 +896,20 @@ td{
   text-align: center;
   padding: 134px 0 137px 0;
 }
+
 .page-middle-banner .opacity h3 {
   color: #fff;
   margin-bottom: 25px;
 }
-.page-middle-banner .opacity a {
+
+.page-middle-banner1 {
+  text-align: center;
+}
+
+.page-middle-banner1 a {
   width: 200px;
   line-height: 45px;
+  text-align: center;
   color:#fff;
   text-transform: uppercase;
   font-weight: 700;
@@ -1140,9 +1147,9 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   margin-bottom: 45px;
 }
 #our-client .owl-theme .owl-dots .owl-dot span {
-  width: 13px;
-  height: 13px;
-  background: #fff;
+  width: 1%;
+  height: 1px;
+  background: rgb(255, 0, 0);
   border: 1px solid#9d9f9f;
   margin: 0 5px;
 }
