@@ -492,28 +492,28 @@ body{
 }
 .content-table tbody td.break{
   color:#000000;
-  background-color:#1fb4e68c;
+  background-color:#ffff;
   
 }
 .content-table tbody td.round-table{
-  /*color:#000000;*/
-  background-color:#021479e7 ;
+  color:#000000;
+  background-color:#ffff ;
 }
 .content-table tbody td.palestra{
   color:#000000;
-  background-color:#0552aad2 ;
+  background-color:#ffff ;
 }
 .content-table tbody td.check-in{
   color:#000000;
-  background-color:#0ee4ecd0;
+  background-color:#ffff;
 }
 .content-table tbody td.momento{
   color:#000000;
-  background-color:#4e53c0 ;
+  background-color:#ffff ;
 }
 .content-table tbody td.pitches{
   color:#000000;
-  background-color:#043c4d ;
+  background-color:#ffff ;
 }
 
 .content-table th,
@@ -539,7 +539,9 @@ body{
   color: #46C8F5;
   font-family: sans-serif;
 }
-
+.content-table tbody td.fim{
+  border-bottom: 2px solid #000000;
+}
 
 
 
