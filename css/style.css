@@ -1147,9 +1147,9 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   margin-bottom: 45px;
 }
 #our-client .owl-theme .owl-dots .owl-dot span {
-  width: 1%;
-  height: 1px;
-  background: rgb(255, 0, 0);
+  width: 13px;
+  height: 13px;
+  background: #fff;
   border: 1px solid#9d9f9f;
   margin: 0 5px;
 }
