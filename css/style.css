@@ -481,38 +481,38 @@ body{
 }
 
 .content-table thead tr {
-  background-color: #000000;
+  background-color: #1e1e1e;
   color: #46C8F5;
   text-align: left;
   font-weight: bold;
   font-family: sans-serif;
 }
 .content-table tbody td.back{
-  background-color:#000000 ; 
+  background-color:#1e1e1e ; 
 }
 .content-table tbody td.break{
-  color:#020091;
+  color:#1e1e1e;
   background-color:#ffff;
   
 }
 .content-table tbody td.round-table{
-  color:#0400ff;
+  color:#1e1e1e;
   background-color:#ffff ;
 }
 .content-table tbody td.palestra{
-  color:#0400ff;
+  color:#1e1e1e;
   background-color:#ffff ;
 }
 .content-table tbody td.check-in{
-  color:#020091;
+  color:#1e1e1e;
   background-color:#ffff;
 }
 .content-table tbody td.momento{
-  color:#0400ff;
+  color:#1e1e1e;
   background-color:#ffff ;
 }
 .content-table tbody td.pitches{
-  color:#0400ff;
+  color:#1e1e1e;
   background-color:#ffff ;
 }
 
@@ -531,7 +531,7 @@ body{
 }
 
 .content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #1e1e1e;
 }
 
 .content-table tbody td.active-row {
@@ -540,7 +540,7 @@ body{
   font-family: sans-serif;
 }
 .content-table tbody td.fim{
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #1e1e1e;
 }
 
 
