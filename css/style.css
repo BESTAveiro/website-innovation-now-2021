@@ -490,11 +490,7 @@ body{
 .content-table tbody td.back{
   background-color:#1e1e1e ; 
 }
-.content-table tbody td.break{
-  color:#1e1e1e;
-  background-color:#ffff;
-  
-}
+
 .content-table tbody td.round-table{
   color:#1e1e1e;
   background-color:#ffff ;
@@ -503,10 +499,7 @@ body{
   color:#1e1e1e;
   background-color:#ffff ;
 }
-.content-table tbody td.check-in{
-  color:#1e1e1e;
-  background-color:#ffff;
-}
+
 .content-table tbody td.momento{
   color:#1e1e1e;
   background-color:#ffff ;
