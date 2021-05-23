@@ -536,7 +536,9 @@ body{
   border-bottom: 2px solid #1e1e1e;
 }
 
-
+.active.row .back{
+  width: 40vw;
+}
 
 
 
