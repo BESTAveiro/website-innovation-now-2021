@@ -474,7 +474,7 @@ body{
   border-collapse: collapse;
   margin-top: 0%;
   border: 200px;
-  font-size: calc( 6px + (24 - 16) * (100vw - 50px) / (800 - 400) / 4 * 3);
+  font-size: 120%;
   border-radius: 20px 20px 0 0;
   overflow: hidden; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
