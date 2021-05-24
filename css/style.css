@@ -465,20 +465,52 @@ body{
 ====================================================================
 
  ***/
- 
-
-.content-table {
-  margin-left: auto;
-  margin-right:auto ;
-  font-family: sans-serif;
-  border-collapse: collapse;
-  margin-top: 0%;
-  border: 200px;
-  font-size: 100%;
-  border-radius: 20px 20px 0 0;
-  overflow: hidden; 
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ @media (max-width: 768px) 
+{
+  .content-table {
+    margin-left: auto;
+    margin-right:auto ;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin-top: 0%;
+    border: 200px;
+    font-size: 100%;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
 }
+@media (max-width: 991px) and (min-width: 768px)
+{
+  .content-table {
+    margin-left: auto;
+    margin-right:auto ;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin-top: 0%;
+    border: 200px;
+    font-size: 120%;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+}
+@media (max-width: 2004px) and (min-width: 991px)
+{
+  .content-table {
+    margin-left: auto;
+    margin-right:auto ;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin-top: 0%;
+    border: 200px;
+    font-size: 160%;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
 
 .content-table thead tr {
   background-color: #1e1e1e;
